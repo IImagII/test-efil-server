@@ -31,7 +31,7 @@ app.use('/api', orderRoute)
 
 mongoose
    .connect(
-      `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.xxwvwgi.mongodb.net/?retryWrites=true&w=majority`
+      `mongodb+srv://mag1:123456qaz@cluster0.xxwvwgi.mongodb.net/?retryWrites=true&w=majority`
    )
    .then(() => {
       app.listen(port, () => {
