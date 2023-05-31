@@ -5,6 +5,7 @@
    "main": "index.js",
    "scripts": {
       "dev": "nodemon index.js",
+      "build": "echo 'Building.....(not actually)'",
       "start": "node index.js"
    },
    "author": "",
